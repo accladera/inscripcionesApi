@@ -37,25 +37,10 @@ export const FormularioInscripcion = (props) => {
         if (type===1) {
             history.push('/');
         }
-        // else{
-        // // if (id !== 0) {
-        // //     // cargarInscripcion(id);
-        // // }
-        // }
+      
     }
 
-    // const cargarInscripcion = (id) => {
-    //     console.log('Materia a cargar', id);
-    //     Axios.get('http://localhost:8080/inscripcionesapi/index.php?controller=inscripciones&action=detail&id=' + id)
-    //         .then(response => {
-    //             console.log(response);
-    //             const inscripcion = response.data.data;  
-    //                 setUsuarioId(inscripcion.usuarioId);   
-    //                 setCarreraId(inscripcion.carreraId);
-    //                 setMateriaId(inscripcion.materiaId);      
-    //         });
-    // }
-
+    
 
     const clickGuardar = () => {
 
@@ -71,25 +56,8 @@ export const FormularioInscripcion = (props) => {
         }; 
          enviarInsertar(inscripcion);
         }
-        // if (id === 0) {
-          
-        // } 
-        // else {
-        //     enviarActualizar(inscripcion);
-        // }
-        
+      
     }
-    // const enviarActualizar = (inscripcion) => {
-    //     Axios.post('http://localhost:8080/inscripcionesapi/index.php?controller=inscripciones&action=update&id=' + id, inscripcion)
-    //         .then(response => {
-    //             if (response.data.res === "success") {
-    //                 history.push('/inscripciones');
-    //             } else {
-    //                 console.log(response);
-    //                 alert('Hubo un error al actualizar inscripcion');
-    //             }
-    //         });
-    // }
     const enviarInsertar = (inscripcion) => {
         Axios.post('http://localhost:8080/inscripcionesapi/index.php?controller=inscripciones&action=store', inscripcion)
             .then(response => {

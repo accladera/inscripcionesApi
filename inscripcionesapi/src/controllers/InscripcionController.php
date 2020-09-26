@@ -114,9 +114,9 @@ class InscripcionController
     public static function searchUser($request)
     {
         $inscripcionBLL = new InscripcionBLL();
-        $id = $request['id'];
+        $usuarioId = $request['usuarioId'];
         $q = $request['q'];
-        $listaInscripciones = $inscripcionBLL->selectSearchUser($id, $q);
+        $listaInscripciones = $inscripcionBLL->selectSearchUser($usuarioId, $q);
         header('Content-Type: application/json');
         echo json_encode(array(
             "res" => "success",

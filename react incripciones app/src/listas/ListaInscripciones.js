@@ -45,7 +45,7 @@ export const ListaInscripciones = (props) => {
 
 
     //Switch distingue estudiante de admin . la decision query distingue en traer todo o una busqueda
-    const traerInscripciones = (type, id) => {
+    const traerInscripciones = (type) => {
         switch (type) {
             case 1:
                 if (query === '') {
@@ -76,7 +76,7 @@ export const ListaInscripciones = (props) => {
                     // precioTotal(id);
                 }
                 else {
-                    Axios.get('http://localhost:8080/inscripcionesapi/index.php?controller=inscripciones&action=searchAdmin&q=' + query)
+                    Axios.get('http://localhost:8080/inscripcionesapi/index.php?controller=inscripciones&action=searchUser&usuarioId='+id+'&q='+query)
                         .then(response => {
                             console.log(response);
                             setListaInscripciones(response.data.data);

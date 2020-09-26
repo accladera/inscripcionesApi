@@ -120,13 +120,13 @@ class InscripcionBLL
         return $lista;
     }
 
-    public function selectSearchUser($id, $query)
+    public function selectSearchUser($usuarioId, $query)
     {
         $objConnection = new Connection();
         $sql = "CALL sp_inscripcion_searchUser(:p_busqueda,:p_usuarioId)";
         $res = $objConnection->queryWithParams($sql, array(
             ":p_busqueda" => $query,
-            ":p_usuarioId" => $id
+            ":p_usuarioId" => $usuarioId
         ));
         $lista = array();
         while ($row = $res->fetch(PDO::FETCH_ASSOC)) {
