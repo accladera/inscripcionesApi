@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cbf6ab0b-966e-44f1-b3ef-efbb95731481" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1hjat6RnWiT0Y05f95zdrI4E4yH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cbf6ab0b-966e-44f1-b3ef-efbb95731481" name="Default Changelist" comment="" />
+      <created>1600527215691</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600527215691</updated>
+      <workItem from="1600527227316" duration="1098000" />
+      <workItem from="1600529886030" duration="6323000" />
+      <workItem from="1600669455753" duration="8853000" />
+      <workItem from="1600748110747" duration="162000" />
+      <workItem from="1600752284374" duration="792000" />
+      <workItem from="1600754942084" duration="1573000" />
+      <workItem from="1600763164101" duration="3082000" />
+      <workItem from="1600786336151" duration="3980000" />
+      <workItem from="1600807530269" duration="5724000" />
+      <workItem from="1600838851551" duration="3241000" />
+      <workItem from="1600887203774" duration="2482000" />
+      <workItem from="1600895278669" duration="3033000" />
+      <workItem from="1601041610806" duration="4678000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="472" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600748232295">
+      <screen x="0" y="44" width="1280" height="756" />
+    </state>
+    <state x="472" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.44.1280.756@0.44.1280.756" timestamp="1600748232295" />
+    <state x="778" y="135" key="#com.intellij.ide.util.MemberChooser" timestamp="1600537477399">
+      <screen x="0" y="44" width="1280" height="756" />
+    </state>
+    <state x="778" y="135" key="#com.intellij.ide.util.MemberChooser/0.44.1280.756@0.44.1280.756" timestamp="1600537477399" />
+    <state x="622" y="44" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600535644288">
+      <screen x="0" y="44" width="1280" height="756" />
+    </state>
+    <state x="622" y="44" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.44.1280.756@0.44.1280.756" timestamp="1600535644288" />
+    <state x="583" y="181" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600670489573">
+      <screen x="0" y="44" width="1280" height="756" />
+    </state>
+    <state x="583" y="181" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.44.1280.756@0.44.1280.756" timestamp="1600670489573" />
+    <state x="436" y="138" key="NewPhpClassDialog" timestamp="1600539977832">
+      <screen x="0" y="44" width="1280" height="756" />
+    </state>
+    <state x="436" y="138" key="NewPhpClassDialog/0.44.1280.756@0.44.1280.756" timestamp="1600539977832" />
+    <state x="481" y="346" key="NewPhpFileDialog" timestamp="1600529405267">
+      <screen x="0" y="44" width="1280" height="756" />
+    </state>
+    <state x="481" y="346" key="NewPhpFileDialog/0.44.1280.756@0.44.1280.756" timestamp="1600529405267" />
+    <state x="623" y="121" width="672" height="678" key="search.everywhere.popup" timestamp="1600670933971">
+      <screen x="0" y="44" width="1280" height="756" />
+    </state>
+    <state x="623" y="121" width="672" height="678" key="search.everywhere.popup/0.44.1280.756@0.44.1280.756" timestamp="1600670933971" />
+  </component>
+</project>

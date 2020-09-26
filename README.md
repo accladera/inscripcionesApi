@@ -1,3 +1,0 @@
-# inscripcionesApi
- holi
- 
